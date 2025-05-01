@@ -1,0 +1,26 @@
+{
+  "name": "sdev_255_final_project_backend",
+  "version": "1.0.0",
+  "main": "courseModel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhernandez66/SDEV_255_Final_Project_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhernandez66/SDEV_255_Final_Project_backend/issues"
+  },
+  "homepage": "https://github.com/lhernandez66/SDEV_255_Final_Project_backend#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  }
+}
