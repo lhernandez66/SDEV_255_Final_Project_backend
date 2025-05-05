@@ -22,9 +22,10 @@ router.delete('/:id', async (req, res) => {
       if (!deletedCourse) {
         return res.status(404).json({ message: 'Course not found' });
       }
-      res.status(204).send(); // No content
+      res.status(204).send(); 
     } catch (error) {
       res.status(500).json({ message: 'Error deleting course' });
     }
   });
   
+module.exports = router;
